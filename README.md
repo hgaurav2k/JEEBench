@@ -7,7 +7,7 @@ The dataset contains questions from Physics, Chemistry and Mathematics collected
 
 
 Example problems:
-file:///home/yaboisj/Downloads/respresentative.png![image](https://github.com/hgaurav2k/JEEBench/assets/45387992/20f918d8-76dd-4d22-8613-663fdb417253)
+![image](https://github.com/hgaurav2k/JEEBench/assets/45387992/20f918d8-76dd-4d22-8613-663fdb417253)
 
 
 Results obtained on various LLMs:
