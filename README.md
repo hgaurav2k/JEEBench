@@ -13,4 +13,5 @@ Example problems:
 
 Results obtained on various LLMs:
 
-![image](https://github.com/hgaurav2k/JEEBench/assets/45387992/85c33c9b-2ccf-4973-ad1a-872a65d264af)
+![image](https://github.com/hgaurav2k/JEEBench/assets/45387992/a1cb56ac-85e2-4d17-9592-419177498ca5)
+
