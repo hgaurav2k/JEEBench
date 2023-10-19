@@ -1,0 +1,23 @@
+python extractor.py \
+	--model_name_or_path t5-large \
+	--do_train \
+	--do_eval \
+	--train_file data/extractor_dataset_train.csv \
+	--validation_file data/extractor_dataset_val.csv \
+	--output_dir models \
+	--overwrite_output_dir \
+	--gradient_accumulation_steps 2 \
+	--per_device_train_batch_size 2 \
+	--max_target_length 10 \
+	--per_device_eval_batch_size 16 \
+	--predict_with_generate \
+	--text_column response \
+	--summary_column extract \
+	--logging_steps 10 \
+	--evaluation_strategy "steps" \
+	--save_total_limit 2 \
+	--save_steps 100 \
+	--eval_steps 100 \
+	--metric_for_best_model "exact_match" \
+	--greater_is_better True \
+	--num_train_epochs 5
