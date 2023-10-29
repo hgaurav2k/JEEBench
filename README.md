@@ -1,4 +1,8 @@
 # JEEBench
+
+## Note 
+For the most recent updates of JEEBench, checkout our official repo: https://github.com/dair-iitd/jeebench
+
 Repository for the code and dataset for the paper: "Have LLMs Advanced Enough? A Harder Problem Solving Benchmark For Large Language Models"
 
 The dataset contains questions from Physics, Chemistry and Mathematics collected from JEE Advanced 2016 to 2022. The breakdown  with respect to subject type and response type is as follows:
